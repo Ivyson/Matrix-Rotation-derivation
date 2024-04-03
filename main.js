@@ -7,3 +7,5 @@ function multiplyMat(mat1, mat2)
         for(let i =0)
     }
 }
+gl_Position = vec4(x,y,z,w)
+new Vector =vec4(r*x, r*y, r*z, w);
