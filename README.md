@@ -15,7 +15,7 @@ This has a word document that shows how to derive matrix formulas for transforma
 1. Scaling Matrix
 2. Projection Matrix
 3. Perspective Matrix
-4. Filed of View
+4. Field of View
 
   
 5. Hand - write the derivation of the matrix (All of them)
@@ -25,4 +25,4 @@ This has a word document that shows how to derive matrix formulas for transforma
 ## Test next week
 1. Use gl_Matrix Library
 2. Camera Matrix
-3. 
+3. Know how to go about Texture mapping
