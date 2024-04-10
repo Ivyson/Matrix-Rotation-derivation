@@ -4,9 +4,9 @@ This has a word document that shows how to derive matrix formulas for transforma
 1. Camera view point,
 2. Projection Matrix
 3. Orthogonal Matrix
-**Project Requirements**
+##Project Requirements
 1. Weighing - 20%
-**Look at these implementations**
+##Look at these implementations
 1. Scaling Matrix
 2. Projection Matrix
 3. Perspective Matrix
