@@ -1,4 +1,4 @@
-function matmultiply(mat1, mat2) {
+export function matmultiply(mat1, mat2) {
   let result = [];
   for (let i = 0; i < 4; i++) {
     for (let j = 0; j < 4; j++) {
@@ -14,8 +14,14 @@ function matmultiply(mat1, mat2) {
   return result;
 }
 
+console.log('Main2.js Function Matrix Multiplication file');
+
+
+
 let mat1 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
 let mat2 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
 console.log(matmultiply(mat1, mat2));
+
+console.log('Main2.js Function Matrix Multiplication file End******');
