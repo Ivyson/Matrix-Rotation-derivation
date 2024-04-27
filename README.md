@@ -3,8 +3,8 @@
 This document shows how to derive matrix formulas for transformations.
 
 ## Things to Go Through
-1. Camera Viewpoint
-2. Projection Matrix
+1. Camera Viewpoint : Still going to work on it
+2. Projection Matrix. 
 
 ## Look at These Implementations
 1. Field Of View Matrix:
@@ -30,7 +30,7 @@ $$
 \end{bmatrix}
 $$
 
-4. Rotation Along Y:
+3. Rotation Along Y:
 
 
 $$
@@ -42,7 +42,7 @@ $$
 \end{bmatrix}
 $$
 
-6. Rotation Along Z:
+4. Rotation Along Z:
 
 
 $$
@@ -54,7 +54,7 @@ $$
 \end{bmatrix}
 $$
 
-8. Perspective Matrix
+5. Perspective Matrix
 
 $$
 \begin{bmatrix}
@@ -75,7 +75,7 @@ $$
 
 
 
-9. Scale Matrix:
+6. Scale Matrix:
   
 $$
 \begin{bmatrix}
