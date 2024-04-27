@@ -25,18 +25,15 @@ $$
 3. World View Matrix
 5. Perspective Matrix
 6. Scale
-
-   $$
+` $$
 \begin{bmatrix}
- sx & 0 & 0 & 0 \\
+sx & 0 & 0 & 0 \\
 0 & sy & 0 & 0 \\
 0 & 0 & sz & 0 \\
-0 & 0 & -1 & 0
+0 & 0 & 0 & 1
 \end{bmatrix}
 $$
-
- 
-   
+`
 
 ## Handwriting the Derivation of the Matrix
 - All of them
