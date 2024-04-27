@@ -11,8 +11,8 @@ This document shows how to derive matrix formulas for transformations.
   
 $$
 \begin{bmatrix}
- \frac{1}{\tan(\theta)} & 0 & 0 & 0 \\
-0 & \frac{1}{\tan(\theta)} & 0 & 0 \\
+ \frac{1}{\tan(\frac{\theta}{2})} & 0 & 0 & 0 \\
+0 & \frac{1}{\tan(\frac{\theta}{2})} & 0 & 0 \\
 0 & 0 & 1 & 0 \\
 0 & 0 & -1 & 0
 \end{bmatrix}
