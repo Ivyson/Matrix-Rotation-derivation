@@ -12,10 +12,10 @@ This has a word document that shows how to derive matrix formulas for transforma
 
    
 ## Look at these implementations
-1. Scaling Matrix = `[ sx, 0, 0, 0,`
-                      `0, sy, 0, 0,   `
-                      `0, 0, sz, 0,`
-                      `0, 0, 0, 1]`
+1. Scaling Matrix = `[ sx, 0, 0, 0,
+                      0, sy, 0, 0, 
+                      0, 0, sz, 0,
+                      0, 0, 0, 1]`
 3. World View Matrix
 4. Perspective Matrix
 5. Field of View
