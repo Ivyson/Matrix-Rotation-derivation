@@ -44,6 +44,8 @@ $$
 $$
 
 6. Rotation Along Z:
+
+
 $$
 \begin{bmatrix}
 \cos(\theta) & -\sin(\theta) & 0 & 0 \\
@@ -53,9 +55,9 @@ $$
 \end{bmatrix}
 $$
 
-7. Perspective Matrix
+8. Perspective Matrix
 
-8. Scale Matrix:
+9. Scale Matrix:
   
 $$
 \begin{bmatrix}
