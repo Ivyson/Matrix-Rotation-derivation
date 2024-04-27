@@ -12,7 +12,7 @@ This has a word document that shows how to derive matrix formulas for transforma
 
    
 ## Look at these implementations
-1. Scaling Matrix =
+1. Scaling Matrix = (
 $$
 \begin{bmatrix}
 sx & 0 & 0 & 0 \\
@@ -21,7 +21,7 @@ sx & 0 & 0 & 0 \\
 0 & 0 & 0 & 1
 \end{bmatrix}
 $$
-
+);
 4. World View Matrix
 5. Perspective Matrix
 6. Field of View
