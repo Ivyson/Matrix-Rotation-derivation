@@ -69,10 +69,12 @@ $$
 -Whereby the far and near represent the following factors :
  -Far: Represents the distance to the far clipping plane
  -Near: Represents the distance to the near clipping plane
- -
+
+ 
  \[
 \theta
 \]
+
 : Represents the field of view angle in radians
 9. Scale Matrix:
   
