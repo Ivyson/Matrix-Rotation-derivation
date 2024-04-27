@@ -6,10 +6,6 @@ This document shows how to derive matrix formulas for transformations.
 1. Camera Viewpoint
 2. Projection Matrix
 3. Orthogonal Matrix
-
-## Project Requirements
-- Weighing: 20%
-
 ## Look at These Implementations
 1. Field Of View Matrix:
   
@@ -22,9 +18,17 @@ $$
 \end{bmatrix}
 $$
 
-2. World View Matrix
-3. Perspective Matrix
-4. Scale Matrix:
+2. Rotation Along X:
+      $$
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & \cos(\theta) & -\sin(\theta) & 0 \\
+0 & \sin(\theta) & \cos(\theta) & 0 \\
+0 & 0 & 0 & 1
+\end{bmatrix}
+$$
+4. Perspective Matrix
+5. Scale Matrix:
   
 $$
 \begin{bmatrix}
