@@ -64,6 +64,8 @@ $$
 0 & 0 & -1 & 0
 \end{bmatrix}
 $$
+
+
 -Whereby the far and near represent the following factors :
  -Far: Represents the distance to the far clipping plane
  -Near: Represents the distance to the near clipping plane
