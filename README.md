@@ -12,17 +12,19 @@ This has a word document that shows how to derive matrix formulas for transforma
 
    
 ## Look at these implementations
-1. Scaling Matrix = `[ sx, 0, 0, 0,
-                      0, sy, 0, 0, 
-                      0, 0, sz, 0,
-                      0, 0, 0, 1]`
-3. World View Matrix
-4. Perspective Matrix
-5. Field of View
+1. Scaling Matrix = $$\begin{bmatrix}
+sx & 0 & 0 & 0 \\
+0 & sy & 0 & 0 \\ 
+0 & 0 & sz & 0 \\
+ 0 & 0 & 0 & 1
+\end{bmatrix}$$
+4. World View Matrix
+5. Perspective Matrix
+6. Field of View
 
   
-6. Hand - write the derivation of the matrix (All of them)
-7. Hand - write the projection Matrix derivation
+7. Hand - write the derivation of the matrix (All of them)
+8. Hand - write the projection Matrix derivation
 
 
 ## Test next week
