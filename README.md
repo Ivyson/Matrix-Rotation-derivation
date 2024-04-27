@@ -5,7 +5,6 @@ This document shows how to derive matrix formulas for transformations.
 ## Things to Go Through
 1. Camera Viewpoint
 2. Projection Matrix
-3. Orthogonal Matrix
 
 ## Look at These Implementations
 1. Field Of View Matrix:
@@ -59,13 +58,13 @@ $$
 
 $$
 \begin{bmatrix}
- \frac{1}{\tan(\theta)} & 0 & 0 & 0 \\
-0 & \frac{1}{\tan(\theta)} & 0 & 0 \\
+ \frac{1}{\tan(\theta/2)} & 0 & 0 & 0 \\
+0 & \frac{1}{\tan(\theta\2)} & 0 & 0 \\
 0 & 0 & -\frac{far+near}{far-near} & -2\frac{far \times near}{far-near} \\
 0 & 0 & -1 & 0
 \end{bmatrix}
 $$
-
+-Whereby the far and near represent the following factors 
 9. Scale Matrix:
   
 $$
@@ -79,8 +78,6 @@ $$
  
 ## Handwriting the Derivation of the Matrix
 - All of them
-
-## Handwriting the Projection Matrix Derivation
 
 ## Test Next Week
 1. Use the gl_Matrix Library
