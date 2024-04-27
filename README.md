@@ -61,7 +61,7 @@ $$
 0 & 0 & 0 & 1
 \end{bmatrix}
 $$
-
+ 
 ## Handwriting the Derivation of the Matrix
 - All of them
 
