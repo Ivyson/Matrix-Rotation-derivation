@@ -57,6 +57,15 @@ $$
 
 8. Perspective Matrix
 
+$$
+\begin{bmatrix}
+ \frac{1}{\tan(\theta)} & 0 & 0 & 0 \\
+0 & \frac{1}{\tan(\theta)} & 0 & 0 \\
+0 & 0 & -\frac{far+near}{far-near} & -2\frac{far \times near}{far-near} \\
+0 & 0 & -1 & 0
+\end{bmatrix}
+$$
+
 9. Scale Matrix:
   
 $$
