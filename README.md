@@ -71,9 +71,10 @@ $$
  -Near: Represents the distance to the near clipping plane
 
  
-\[
-\theta : \text{Represents the field of view angle in radians}
-\]
+$$
+\theta 
+$$
+:Represents the field of view angle in radians
 
 
 
