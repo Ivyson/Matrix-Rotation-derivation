@@ -28,10 +28,10 @@ $$
   
 $$
 \begin{bmatrix}
- \frac{1}{\tan(\theta)} & 0 & 0 & 0 \\
-0 & \frac{1}{\tan(\theta)} & 0 & 0 \\
-0 & 0 & 1 & 0 \\
-0 & 0 & -1 & 0
+ sx & 0 & 0 & 0 \\
+0 & sy & 0 & 0 \\
+0 & 0 & sz & 0 \\
+0 & 0 & 0 & 1
 \end{bmatrix}
 $$
 
