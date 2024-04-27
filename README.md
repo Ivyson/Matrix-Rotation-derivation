@@ -20,6 +20,8 @@ $$
 $$
 
 2. Rotation Along X:
+
+
 $$
 \begin{bmatrix}
 1 & 0 & 0 & 0 \\
@@ -29,17 +31,17 @@ $$
 \end{bmatrix}
 $$
 
-3. Rotation Along Y:
+4. Rotation Along Y:
 $$
 \begin{bmatrix}
-\cos(\theta) & 0 & \sin(\theta) & 0 \\
-0 & 1 & 0 & 0 \\
--\sin(\theta) & 0 & \cos(\theta) & 0 \\
+1 & 0 & 0 & 0 \\
+0 & \cos(\theta) & -\sin(\theta) & 0 \\
+0 & \sin(\theta) & \cos(\theta) & 0 \\
 0 & 0 & 0 & 1
 \end{bmatrix}
 $$
 
-4. Rotation Along Z:
+5. Rotation Along Z:
 $$
 \begin{bmatrix}
 \cos(\theta) & -\sin(\theta) & 0 & 0 \\
@@ -49,9 +51,9 @@ $$
 \end{bmatrix}
 $$
 
-5. Perspective Matrix
+6. Perspective Matrix
 
-6. Scale Matrix:
+7. Scale Matrix:
   
 $$
 \begin{bmatrix}
