@@ -13,7 +13,7 @@ This has a word document that shows how to derive matrix formulas for transforma
    
 ## Look at these implementations
 1. Scaling Matrix = (
-\begin{pmatrix}s_x&0&0&0\\ 0&s_y&0&0\\ 0&0&s_z&0\\ 0&0&0&1\end{pmatrix}
+\begin{pmatrix} s_x & 0 & 0 & 0 \\ 0 & s_y & 0 & 0 \\ 0 & 0 & s_z & 0 \\ 0 & 0 & 0 & 1\end{pmatrix}
 );
 4. World View Matrix
 5. Perspective Matrix
