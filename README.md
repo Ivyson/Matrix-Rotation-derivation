@@ -23,6 +23,7 @@ This document shows how to derive matrix formulas for transformations.
 2. World View Matrix
 3. Perspective Matrix
 4. Field of View
+   $$
    \[
    \begin{bmatrix}
    \frac{1}{\tan(\theta)} & 0 & 0 & 0 \\
@@ -31,6 +32,7 @@ This document shows how to derive matrix formulas for transformations.
    0 & 0 & -1 & 0
    \end{bmatrix}
    \]
+   $$
 
 ## Handwriting the Derivation of the Matrix
 - All of them
