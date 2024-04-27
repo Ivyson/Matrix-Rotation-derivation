@@ -20,7 +20,7 @@ $$
 0 & 0 & 1 & 0 \\
 0 & 0 & -1 & 0
 \end{bmatrix}
-
+\quad
 
 
 3. World View Matrix
