@@ -11,28 +11,22 @@ This document shows how to derive matrix formulas for transformations.
 - Weighing: 20%
 
 ## Look at These Implementations
-1. Scaling Matrix: 
+1. Scaling Matrix:
+   $$
    \[
    \begin{pmatrix}
-   s_x & 0 & 0 & 0 \\
-   0 & s_y & 0 & 0 \\
-   0 & 0 & s_z & 0 \\
+   sx & 0 & 0 & 0 \\
+   0 & sy & 0 & 0 \\
+   0 & 0 & sz & 0 \\
    0 & 0 & 0 & 1
    \end{pmatrix}
    \]
-2. World View Matrix
-3. Perspective Matrix
-4. Field of View
    $$
-   \[
-   \begin{bmatrix}
-   \frac{1}{\tan(\theta)} & 0 & 0 & 0 \\
-   0 & \frac{1}{\tan(\theta)} & 0 & 0 \\
-   0 & 0 & 1 & 0 \\
-   0 & 0 & -1 & 0
-   \end{bmatrix}
-   \]
-   $$
+3. World View Matrix
+4. Perspective Matrix
+5. Field of View
+ 
+   
 
 ## Handwriting the Derivation of the Matrix
 - All of them
