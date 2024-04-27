@@ -7,7 +7,7 @@ This document shows how to derive matrix formulas for transformations.
 2. Projection Matrix. 
 
 ## Look at These Implementations
-1. Field Of View Matrix:
+1. **Field Of View Matrix:**
   
 $$
 \begin{bmatrix}
@@ -18,7 +18,7 @@ $$
 \end{bmatrix}
 $$
 
-2. Rotation Along X:
+2. **Rotation Along X:**
 
 
 $$
@@ -30,7 +30,7 @@ $$
 \end{bmatrix}
 $$
 
-3. Rotation Along Y:
+3. **Rotation Along Y:**
 
 
 $$
@@ -42,7 +42,7 @@ $$
 \end{bmatrix}
 $$
 
-4. Rotation Along Z:
+4. **Rotation Along Z:**
 
 
 $$
@@ -54,7 +54,7 @@ $$
 \end{bmatrix}
 $$
 
-5. Perspective Matrix
+5. **Perspective Matrix:**
 
 $$
 \begin{bmatrix}
@@ -75,7 +75,7 @@ $$
 
 
 
-6. Scale Matrix:
+6. **Scale Matrix:**
   
 $$
 \begin{bmatrix}
