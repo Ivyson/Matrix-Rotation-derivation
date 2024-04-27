@@ -58,7 +58,7 @@ $$
 
 $$
 \begin{bmatrix}
- \frac{1}{\tan(\frac{\theta}{2})} & 0 & 0 & 0 \\
+ \frac{1}{aspectRatio\times\tan(\frac{\theta}{2})} & 0 & 0 & 0 \\
 0 & \frac{1}{\tan(\frac{\theta}{2})} & 0 & 0 \\
 0 & 0 & -\frac{far+near}{far-near} & -2\frac{far \times near}{far-near} \\
 0 & 0 & -1 & 0
