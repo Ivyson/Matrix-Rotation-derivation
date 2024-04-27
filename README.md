@@ -13,20 +13,17 @@ This has a word document that shows how to derive matrix formulas for transforma
    
 ## Look at these implementations
 1. Scaling Matrix = (
-$$
-\begin{bmatrix}
-sx & 0 & 0 & 0 \\
-0 & sy & 0 & 0 \\
-0 & 0 & sz & 0 \\
-0 & 0 & 0 & 1
-\end{bmatrix}
-$$
+\begin{pmatrix}s_x&0&0&0\\ 0&s_y&0&0\\ 0&0&s_z&0\\ 0&0&0&1\end{pmatrix}
 );
 4. World View Matrix
 5. Perspective Matrix
 6. Field of View
 
 $$
+
+
+
+This is for Field of view:
 \begin{bmatrix}
 \frac{1}{\tan(\theta)}
 & 0 & 0 & 0 \\
