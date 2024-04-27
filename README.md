@@ -12,19 +12,18 @@ This document shows how to derive matrix formulas for transformations.
 
 ## Look at These Implementations
 1. Scaling Matrix:
-   $$
-   \[
-   \begin{pmatrix}
-   sx & 0 & 0 & 0 \\
-   0 & sy & 0 & 0 \\
-   0 & 0 & sz & 0 \\
-   0 & 0 & 0 & 1
-   \end{pmatrix}
-   \]
-   $$
+  
+$$
+\begin{bmatrix}
+sx & 0 & 0 & 0 \\
+0 & sy & 0 & 0 \\
+0 & 0 & sz & 0 \\
+0 & 0 & 0 & 1
+\end{bmatrix}
+$$
 3. World View Matrix
-4. Perspective Matrix
-5. Field of View
+5. Perspective Matrix
+6. Field of View
  
    
 
