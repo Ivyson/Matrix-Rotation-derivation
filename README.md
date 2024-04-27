@@ -58,13 +58,16 @@ $$
 
 $$
 \begin{bmatrix}
- \frac{1}{\tan(\theta/2)} & 0 & 0 & 0 \\
-0 & \frac{1}{\tan(\theta\2)} & 0 & 0 \\
+ \frac{1}{\tan(\frac{\theta}{2})} & 0 & 0 & 0 \\
+0 & \frac{1}{\tan(\frac{\theta}{2})} & 0 & 0 \\
 0 & 0 & -\frac{far+near}{far-near} & -2\frac{far \times near}{far-near} \\
 0 & 0 & -1 & 0
 \end{bmatrix}
 $$
--Whereby the far and near represent the following factors 
+-Whereby the far and near represent the following factors :
+ -Far: Represents the distance to the far clipping plane
+ -Near: Represents the distance to the near clipping plane
+ - \theta : Represents the field of view angle in radians
 9. Scale Matrix:
   
 $$
