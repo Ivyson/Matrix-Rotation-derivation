@@ -26,10 +26,22 @@ $$
 4. World View Matrix
 5. Perspective Matrix
 6. Field of View
+   Scaling Matrix:
+
+$$
+\begin{bmatrix}
+ $$ \frac{1}{\tan(\theta)} $$
+& 0 & 0 & 0 \\
+0 & $$ \frac{1}{\tan(\theta)} $$
+ & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & -1 & 0
+\end{bmatrix}
+$$
 
   
-7. Hand - write the derivation of the matrix (All of them)
-8. Hand - write the projection Matrix derivation
+8. Hand - write the derivation of the matrix (All of them)
+9. Hand - write the projection Matrix derivation
 
 
 ## Test next week
