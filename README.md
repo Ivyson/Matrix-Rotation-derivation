@@ -15,12 +15,16 @@ This document shows how to derive matrix formulas for transformations.
   
 $$
 \begin{bmatrix}
- \frac{1}{\tan(\theta)} & 0 & 0 & 0 \\
-0 & \frac{1}{\tan(\theta)} & 0 & 0 \\
-0 & 0 & 1 & 0 \\
-0 & 0 & -1 & 0
+a & b \\
+c & d
+\end{bmatrix}
+\quad
+\begin{bmatrix}
+w & x \\
+y & z
 \end{bmatrix}
 $$
+
 
 3. World View Matrix
 5. Perspective Matrix
