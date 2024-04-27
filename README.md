@@ -15,12 +15,13 @@ This document shows how to derive matrix formulas for transformations.
   
 $$
 \begin{bmatrix}
-sx & 0 & 0 & 0 \\
-0 & sy & 0 & 0 \\
-0 & 0 & sz & 0 \\
-0 & 0 & 0 & 1
+ \frac{1}{\tan(\theta)} & 0 & 0 & 0 \\
+0 & \frac{1}{\tan(\theta)} & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & -1 & 0
 \end{bmatrix}
 $$
+
 3. World View Matrix
 5. Perspective Matrix
 6. Field of View
